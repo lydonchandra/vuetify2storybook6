@@ -6,6 +6,11 @@
    npx sb init
    ```
 
+References:
+
+1. https://morphatic.com/2020/09/30/configuring-storybook-6-for-vue-2-vuetify-2-3/
+2. https://stackoverflow.com/questions/57468959/setting-up-storybook-with-vuetify-2
+
 ---
 
 ## Project setup
