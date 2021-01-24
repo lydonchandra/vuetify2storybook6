@@ -1,5 +1,13 @@
 # vuetify2storybook6
 
+## Enable Storybook
+1. Make sure you use npm v6 and storybook v6
+   ``` 
+   npx sb init
+   ```
+
+---
+
 ## Project setup
 ```
 npm install
