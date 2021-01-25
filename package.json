@@ -16,11 +16,12 @@
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
     "vue-property-decorator": "^9.1.2",
-    "vuetify": "^2.4.3"
+    "vuetify": "^2.4.3",
+    "@mdi/font": "^5.9.55",
+    "@mdi/js": "^5.9.55"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
-    "@mdi/font": "^5.9.55",
     "@storybook/addon-actions": "^6.1.15",
     "@storybook/addon-essentials": "^6.1.15",
     "@storybook/addon-links": "^6.1.15",

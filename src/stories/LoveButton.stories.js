@@ -15,3 +15,8 @@ export const LoveYou = Template.bind({});
 LoveYou.args = {
   loveText: "LoveYou"
 };
+
+export const LoveMe = Template.bind({});
+LoveMe.args = {
+  loveText: "LoveMe"
+};
