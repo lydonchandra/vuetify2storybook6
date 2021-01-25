@@ -8,15 +8,17 @@ export default {
 const Template = (args, { argTypes }) => ({
   props: Object.keys(argTypes),
   components: { LoveButton },
-  template: '<love-button :love="loveText" />'
+  template: '<love-button :love-text="loveText" :alert-type="alertType"/>'
 });
 
 export const LoveYou = Template.bind({});
 LoveYou.args = {
-  loveText: "LoveYou"
+  loveText: "LoveYou",
+  alertType: "success"
 };
 
 export const LoveMe = Template.bind({});
 LoveMe.args = {
-  loveText: "LoveMe"
+  loveText: "LoveMe",
+  alertType: "error"
 };
