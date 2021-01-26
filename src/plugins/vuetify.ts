@@ -6,7 +6,7 @@ Vue.use(Vuetify);
 
 export const options: UserVuetifyPreset = {
   icons: {
-    iconfont: "mdiSvg"
+    iconfont: "mdiSvg",
   }
 };
 

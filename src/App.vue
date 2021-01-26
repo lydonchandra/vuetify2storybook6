@@ -34,6 +34,7 @@
     </v-app-bar>
 
     <v-main>
+      <LoveButton alert-type="success" love-text="Love you" />
       <HelloWorld />
     </v-main>
   </v-app>
@@ -42,11 +43,13 @@
 <script lang="ts">
 import Vue from "vue";
 import HelloWorld from "./components/HelloWorld.vue";
+import LoveButton from "@/components/LoveButton.vue";
 
 export default Vue.extend({
   name: "App",
 
   components: {
+    LoveButton,
     HelloWorld
   },
 
